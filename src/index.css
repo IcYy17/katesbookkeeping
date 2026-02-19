@@ -1671,10 +1671,7 @@ html {
   inherits: false
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap);
-@import url(https://fonts.cdnfonts.com/css/canela);
-/* virtual-fs:file:///styles/globals.css */
-@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap);
+/* Fonts already imported at top of file */
 @custom-variant dark (&:is(.dark *));
 :root {
   --font-size: 16px;
