@@ -1,5 +1,5 @@
 import { Calendar } from 'lucide-react';
-import logo from 'figma:asset/26fb579544545ed52d17ee92cb23dea2cb8e9fd2.png';
+import logo from '../assets/26fb579544545ed52d17ee92cb23dea2cb8e9fd2.png';
 
 export function Header() {
   return (
@@ -20,6 +20,9 @@ export function Header() {
             </a>
             <a href="#pricing" className="text-white/90 hover:text-white transition-colors text-lg">
               Plans
+            </a>
+            <a href="#how-it-works" className="text-white/90 hover:text-white transition-colors text-lg">
+              How It Works
             </a>
           </nav>
           

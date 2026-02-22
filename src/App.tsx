@@ -3,7 +3,9 @@ import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { Services } from "./components/Services";
 import { Pricing } from './components/Pricing';
+import { HowItWorks } from "./components/HowItWorks";
 import { CTA } from "./components/CTA";
+// import { Booking } from "./components/Booking";
 import { Footer } from "./components/Footer";
 import "./styles/globals.css";
 
@@ -23,7 +25,9 @@ export default function App() {
       <About />
       <Services />
       <Pricing />
+      <HowItWorks />
       <CTA />
+      {/* <Booking /> */}
       <Footer />
     </div>
   );

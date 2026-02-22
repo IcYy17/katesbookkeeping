@@ -1,4 +1,4 @@
-import katePhoto from 'figma:asset/4750205eb49dda48758e33109eb62c5f8f3d4bfe.png';
+import katePhoto from '../assets/4750205eb49dda48758e33109eb62c5f8f3d4bfe.png';
 import { Mail, Linkedin, Facebook } from 'lucide-react';
 
 export function About() {
@@ -12,13 +12,13 @@ export function About() {
             </h2>
             <div className="space-y-4 text-[#5A5A5A] leading-relaxed text-lg">
               <p>
-                Bookkeeping is important... but rarely enjoyable. That's why I'm here! I deliver clear communication, accurate books, and dependable support.
+                Bookkeeping is important... but rarely enjoyable. That's why I'm here! I deliver clear communication, accurate books, and dependable support you can trust.
               </p>
               <p>
-                Outside of bookkeeping, I love weightlifting, reading, and enjoying Utah outdoors with my husband.
+                I hold a Bachelor's degree in Accounting, have professional experience as a staff accountant, and am a certified QuickBooks ProAdvisor.
               </p>
               <p>
-                You can feel confident knowing your books are organized, up to date, and handled with care. I can't wait to connect with you!
+                From monthly retainers to one-off campaigns, marketing agencies need clean revenue tracking and reliable reporting. I keep your accounts reconciled, organized, and up to date — delivering clear monthly financials that support confident decisions and growth.
               </p>
             </div>
             <div className="flex gap-6 mt-8 items-center">

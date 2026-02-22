@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { motion } from 'motion/react';
-import logo from 'figma:asset/26fb579544545ed52d17ee92cb23dea2cb8e9fd2.png';
+import logo from '../assets/26fb579544545ed52d17ee92cb23dea2cb8e9fd2.png';
 
 export function Hero() {
   return (
@@ -33,7 +33,10 @@ export function Hero() {
               </motion.h1>
 
               <p className="text-lg md:text-xl text-[#5A5A5A] leading-relaxed max-w-4xl mx-auto">
-                Professional bookkeeping services for small business owners, freelancers, and creatives — bringing clarity and peace of mind.
+                Professional bookkeeping built for small marketing and creative teams. 
+                <span className="inline-block">
+                  Retainers to contractor payments, handled accurately every month.
+                  </span>
               </p>
             </div>
           </div>

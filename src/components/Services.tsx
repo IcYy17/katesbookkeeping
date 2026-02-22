@@ -1,20 +1,20 @@
-import { BookOpen, CheckCircle, Users } from 'lucide-react';
+import { BookOpen, TrendingUp, Users } from 'lucide-react';
 
 const services = [
   {
     icon: BookOpen,
-    title: 'Monthly Bookkeeping',
-    description: 'Consistent, accurate record-keeping every month. Your books stay current, organized, prepared for audit, and tax ready.'
+    title: 'Monthly Bookkeeping & Reporting',
+    description: 'Accurate books every month. Clear reports that support confident decisions.'
   },
   {
-    icon: CheckCircle,
-    title: 'Transaction Categorization & Bank Reconciliations',
-    description: 'Every transaction properly labeled and organized, with regular reconciliation to catch discrepancies early and keep your accounts balanced and accurate.'
+    icon: TrendingUp,
+    title: 'Revenue & Expense Visibility',
+    description: 'Retainers and expenses tracked correctly. See client profitability and margins at a glance.'
   },
   {
     icon: Users,
     title: 'Real People, Real Support',
-    description: 'Direct access to a dedicated bookkeeper who knows your business and can explain financials simply. No chatbots, just real, personal support when you need it.'
+    description: 'Direct access to a bookkeeper who gets your agency. Real support, no chatbots.'
   }
 ];
 
@@ -24,7 +24,7 @@ export function Services() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-[#6B1F2B] mb-4 text-4xl md:text-5xl" style={{ fontFamily: 'Lora, serif' }}>
-            What to expect
+            How I Support Your Agency
           </h2>
         </div>
         

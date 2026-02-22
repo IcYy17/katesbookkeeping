@@ -6,7 +6,7 @@ const plans = [
     name: 'Starter',
     //price: '$325',
     //period: '/month',
-    description: 'Best for freelancers and solopreneurs',
+    description: 'Best for small agencies with low transaction volume',
     features: [
       'Monthly bank & credit card reconciliation',
       'Up to 75 transactions per month',
@@ -21,7 +21,7 @@ const plans = [
     name: 'Professional',
     //price: '$575',
     //period: '/month',
-    description: 'Perfect for small businesses and growing teams',
+    description: 'Best for agencies managing multiple clients and contractors',
     features: [
       'Everything in Starter',
       'Up to 200 transactions per month',
@@ -35,7 +35,7 @@ const plans = [
     name: 'Premium',
     //price: '$850',
     //period: '/month',
-    description: 'Ideal for established businesses with complex needs',
+    description: 'Best for growing teams with complex operations',
     features: [
       'Everything in Starter & Professional',
       'Up to 400 transactions per month',
@@ -122,15 +122,6 @@ export function Pricing() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <p className="text-[#5A5A5A]">
-            Need something custom?{' '}
-            <a href="https://cal.com/katenashbooks" className="text-[#6B8A9A] hover:underline">
-              Let's talk
-            </a>{' '}
-            about building a plan that works for you.
-          </p>
-        </div>
       </div>
     </section>
   );

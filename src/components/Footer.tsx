@@ -11,7 +11,7 @@ export function Footer() {
             <Shield className="w-8 h-8 text-[#6B1F2B] mb-3" />
             <h4 className="text-[#6B1F2B] mb-2">Professional</h4>
             <p className="text-[#5A5A5A] text-sm">
-              Certified bookkeeper with years of experience serving small businesses
+              Certified bookkeeper ready to deliver clear financials for marketing agencies
             </p>
           </div>
           
@@ -27,16 +27,13 @@ export function Footer() {
             <Award className="w-8 h-8 text-[#6B1F2B] mb-3" />
             <h4 className="text-[#6B1F2B] mb-2">Reliable</h4>
             <p className="text-[#5A5A5A] text-sm">
-              Trusted by freelancers, creatives, and small business owners
+              Confidential, precise bookkeeping built for marketing and creative agencies
             </p>
           </div>
         </div>
         
         <div className="border-t border-[#5A5A5A]/20 pt-8 text-center">
-          <h3 className="text-[#6B1F2B] mb-2">Kate's Bookkeeping</h3>
-          <p className="text-[#5A5A5A] mb-6">
-            Stress-free bookkeeping for small businesses and creatives
-          </p>
+          <h3 className="text-[#6B1F2B] mb-6">Kate's Bookkeeping</h3>
           
           <a
             href="https://cal.com/katenashbooks"
